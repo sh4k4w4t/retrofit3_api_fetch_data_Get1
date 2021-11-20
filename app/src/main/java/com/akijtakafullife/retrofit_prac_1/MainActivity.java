@@ -41,9 +41,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("updated_at", String.valueOf(objectDataClass.getUpdated_at()));
                     }
                 }
-                else {
-                    Log.d("response", "onFailure: fail");
-                }
+                else { Log.d("response", "onFailure: fail"); }
             }
 
             @Override
